@@ -189,6 +189,7 @@ pub fn to_uppercase_owned(_s: String) -> String {
 /// Borrows a String immutably and returns its length.
 ///
 /// Demonstrates: read-only borrowing.
+#[allow(clippy::ptr_arg)]
 pub fn string_length(_s: &String) -> usize {
     todo!("Implement string_length — hint: .len()")
 }
